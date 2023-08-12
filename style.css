@@ -1,0 +1,332 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap");
+
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+.main-contianer {
+  font-family: "Roboto", sans-serif;
+}
+
+.nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid rgb(211, 210, 210);
+}
+
+.location {
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid #e2e2e2;
+  margin-left: 90px;
+
+  box-shadow: 0 0 4px 1px rgb(219, 217, 217);
+  border-radius: 90px;
+}
+
+.logo-btn {
+  width: 100px;
+  height: 40px;
+  border: none;
+  background-color: inherit;
+  appearance: none;
+  cursor: pointer;
+  padding: 5px;
+  margin-left: 40px;
+}
+
+.location-components {
+  border: none;
+  background-color: inherit;
+  appearance: none;
+  cursor: pointer;
+  border-right: 1px solid #e2e2e2;
+  padding: 0px 30px 0px 30px;
+  height: 30px;
+  font-size: 12px;
+  border-top-left-radius: 50px;
+  border-bottom-left-radius: 50px;
+  color: rgb(177, 174, 174);
+  font-size: 16px;
+  font-weight: 500;
+  color: black;
+  font-family: "Roboto", sans-serif;
+}
+.location-components_addguests {
+  border: none;
+  background-color: inherit;
+  appearance: none;
+  cursor: pointer;
+  text-align: center;
+  padding: 0px 30px 0px 30px;
+  height: 30px;
+  font-size: 12px;
+  border-top-left-radius: 50px;
+  border-bottom-left-radius: 50px;
+  color: rgb(177, 174, 174);
+  font-size: 16px;
+  font-family: "Roboto", sans-serif;
+}
+.location-search {
+  width: 20px;
+  position: absolute;
+  bottom: 10px;
+  left: 11px;
+}
+.location-search-btn {
+  position: relative;
+  width: 42px;
+  height: 42px;
+  background-color: #ff385c;
+  border: 1px solid white;
+  appearance: none;
+  margin-top: 3px;
+  margin-left: 8px;
+  margin-right: 6px;
+  margin-bottom: 2px;
+  padding: 10px;
+  border-radius: 50px;
+}
+
+.account-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 20px;
+  gap: 6px;
+}
+.profile-content-btn {
+  display: flex;
+  width: 65px;
+  justify-content: space-between;
+  align-items: center;
+  /* height: 30px; */
+  background-color: white;
+  border: 1px solid rgb(214, 214, 214);
+  border-radius: 50px;
+  border-bottom-right-radius: 50px;
+}
+.account-icon {
+  background-color: transparent;
+  margin-left: 2px;
+  margin-right: 5px;
+  width: 20px;
+  padding: 2px;
+  margin-top: 3px;
+}
+.globe {
+  border: none;
+  appearance: none;
+  background-color: inherit;
+}
+.Airbnb-caption {
+  border: none;
+  appearance: none;
+  background-color: inherit;
+  font-size: 14px;
+  font-weight: 700;
+  padding: 5px;
+  margin: 5px;
+}
+
+.property-button-select {
+  width: 80px;
+  height: 80px;
+  padding: 5px;
+  margin: 10px;
+  border: none;
+  appearance: none;
+
+  background-color: inherit;
+}
+.property-button-logo {
+  width: 40px;
+  height: 40px;
+  pad: 5px;
+  opacity: 0.5;
+}
+.property-options {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.property-search-btn {
+  position: relative;
+  width: 36px;
+  height: 36px;
+  background-color: inherit;
+  border: 1px solid rgb(151, 149, 149);
+  appearance: none;
+
+  /* padding: 10px; */
+  border-radius: 50px;
+  margin: 20px;
+}
+.property-search-logo {
+  width: 45%;
+  margin-top: 4px;
+}
+.filter-btn {
+  display: flex;
+  width: 90px;
+  justify-content: center;
+  align-items: center;
+  height: 60px;
+  background-color: white;
+  border: 1px solid rgb(214, 214, 214);
+  border-radius: 20px;
+}
+
+.Filter-text {
+  text-decoration: none;
+  color: black;
+  font-size: 14px;
+  padding: 5px;
+  margin-right: 10px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+}
+
+.filter-icon {
+  background-color: transparent;
+  margin-left: 12px;
+  margin-right: 0px;
+  width: 18px;
+  padding: 5px;
+  margin-top: 3px;
+}
+
+.total-price {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 10px;
+  padding-bottom: 20px;
+  border-bottom: 1px solid rgb(209, 209, 209);
+  box-shadow: 0px 7px 20px -6px rgba(194, 194, 194, 1);
+}
+
+.display-price {
+  color: #222222;
+  font-size: 15px;
+  font-weight: 600;
+  line-height: 19px;
+  font-family: "Roboto", sans-serif;
+  padding: 10px;
+  margin: 10px;
+}
+.display-fees {
+  color: #717171;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 19px;
+  border-left: #dddddd 1px solid !important;
+  margin-left: 12px !important;
+  padding-left: 16px !important;
+  margin: 10px;
+  font-family: "Roboto", sans-serif;
+}
+.btn-container {
+  width: 60px;
+  height: 30px;
+  background-color: grey;
+  border-radius: 50px;
+  position: relative;
+  margin: 10px;
+}
+.btn-switch {
+  width: 22px;
+  height: 22px;
+  background-color: white;
+  border-radius: 50px;
+  padding: 2px;
+  position: absolute;
+  left: 3px;
+  top: 2px;
+}
+.toggle-btn {
+  margin: 10px;
+}
+.total-price-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid rgb(194, 193, 193);
+  border-radius: 10px;
+  height: 70px;
+}
+
+.property-display {
+  width: 280px;
+  margin: 15px 10px 10px 10px;
+
+  border-radius: 12px;
+}
+.building-img {
+  width: 260px;
+  border-radius: 20px;
+  padding: 10px 10px 0px 10px;
+  height: 260px;
+}
+
+.building-details {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.star {
+  width: 12px;
+  padding: 5px;
+}
+.rating {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.building-name {
+  font-family: "Roboto", sans-serif;
+  padding: 10px 10px 5px 10px;
+  font-weight: 500;
+}
+.rating-text {
+  font-family: "Roboto", sans-serif;
+  margin-right: 10px;
+}
+
+.distance-away {
+  font-family: "Roboto", sans-serif;
+  padding: 0 10px 0px 10px;
+  font-size: 14px;
+  color: gray;
+}
+
+.amount-display {
+  font-family: "Roboto", sans-serif;
+  padding: 0 10px 0px 10px;
+  font-size: 14px;
+  color: rgb(47, 46, 46);
+  margin-bottom: 10px;
+}
+
+.fav-img {
+  position: relative;
+}
+.heart-img-svg {
+  width: 18px;
+  position: absolute;
+  bottom: 325px;
+  left: 230px;
+}
+
+.location-container {
+  display: flex;
+  border: 1px solidblue;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+}
